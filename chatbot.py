@@ -98,8 +98,15 @@ class PersonalityBot:
             print(f"\nOghenetega: ", end="", flush=True)
             full_response = ""
             for chunk in response_stream:
-                print(chunk.text, end="", flush=True)
-                full_response += chunk.text
+                text = chunk.text
+                # Some API versions return the full accumulated text instead of just the delta.
+                # This checks if it's accumulating and only prints the new part.
+                if text.startswith(full_response):
+                    print(text[len(full_response):], end="", flush=True)
+                    full_response = text
+                else:
+                    print(text, end="", flush=True)
+                    full_response += text
             print() # Print new line when streaming finishes
             
             # 4. Token Tracking
