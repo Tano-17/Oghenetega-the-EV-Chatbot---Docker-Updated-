@@ -1,4 +1,4 @@
-# 🔐 Security Audit Report
+# Security Audit Report
 **Project:** Oghenetega EV Chatbot Service  
 **Auditor:** Tano   
 **Date:** 20 June 2026  
