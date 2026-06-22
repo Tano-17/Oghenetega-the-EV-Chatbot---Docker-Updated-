@@ -1,4 +1,4 @@
-# 🤖 Responsible AI Use Policy
+# Responsible AI Use Policy
 **Product:** Oghenetega EV Chatbot  
 **Version:** 1.0 | **Date:** 20 June 2026  
 **Owner:** Tano (Developer)
@@ -11,7 +11,7 @@ This policy governs the responsible development, deployment, and use of the Oghe
 
 ---
 
-## 1. Permitted Uses ✅
+## 1. Permitted Uses 
 
 - Answering questions about electric vehicles, charging networks, battery technology, and EV models
 - Providing general educational information about sustainable transport
@@ -20,7 +20,7 @@ This policy governs the responsible development, deployment, and use of the Oghe
 
 ---
 
-## 2. Prohibited Uses ❌
+## 2. Prohibited Uses 
 
 The chatbot **must not** be used to:
 
@@ -89,4 +89,4 @@ This policy should be reviewed and updated:
 
 ---
 
-*Oghenetega EV Chatbot | Responsible AI Use Policy v1.0 | For educational use — Month 2 Weekly Project Assignment*
+*Oghenetega EV Chatbot | Responsible AI Use Policy v1.0 | For educational use — Project Assignment*
